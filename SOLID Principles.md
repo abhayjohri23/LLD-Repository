@@ -47,3 +47,18 @@ Contains the collections framework, legacy collection classes, event model, date
 ![Alt text](image.png)
 
 Here, SRP can be considered as voilated by adding so many functionality within single package.
+
+<ins>Think in terms of responsibilities</ins> - Doing a lot of things in a single class/block of code - SRP voilation.
+
+<ins>Think in terms of coupling of responsibilities </ins> - If something is prone to changes and can be separated out!
+
+<ins>Think in terms of testing the code </ins> - For a small modification, if I will not have to test the entire functionality.If we have test it more than required, we should separate it!
+
+## Open Closed Principle:
+- It states that any block of code, be it a class or a method, should be open for extension and closed for modification.
+- Modification with respect to method's responsibility (what method is intended to do) is possible, but bringing in of new functionalities/changes should be stopped.
+- Whereas extension of its own functional logic is allowed, but adding of new functionality is not allowed.
+
+- Handling of OCP leads to resolved SRP.
+
+### Note: Change a method only if the logic of that specific functionality is changing, otherwise if there is a new thing coming in, try adding it in a de-coupled way, so that it doesn't bring dependency into the code. (Code is extensible, from its functionality perspective but it should be as closed as possible, for a modification). Try keeping your changes as decoupled as possible.
