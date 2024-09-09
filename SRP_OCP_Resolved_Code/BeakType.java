@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public enum BeakType {
+public enum BeakType {
+    SMALL, MEDIUM, LARGE
 }
