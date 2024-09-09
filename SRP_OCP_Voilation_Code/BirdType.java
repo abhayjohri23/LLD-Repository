@@ -1,0 +1,3 @@
+public enum BirdType {
+    PARROT, SPARROW, PIGEON, EAGLE, PENGUIN, OSTRICH
+}
